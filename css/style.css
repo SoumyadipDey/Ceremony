@@ -63,12 +63,13 @@ p {
   margin-bottom: 20px;
 }
 
-h1, h2, h3, h4, h5, h6, figure {
+h1,h2, h3, h4, h5, h6, figure {
   color: #000;
   font-family: "Work Sans", Arial, sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
 }
+
 
 ::-webkit-selection {
   color: #fff;
@@ -833,7 +834,7 @@ form label {
 .fh5co-cover .display-tc {
   display: table-cell !important;
   vertical-align: middle;
-  padding-top: 130px;
+  padding-top: 35px;
 }
 #fh5co-header .display-tc h1, #fh5co-header .display-tc h2,
 #fh5co-counter .display-tc h1,
@@ -848,7 +849,7 @@ form label {
 #fh5co-counter .display-tc h1,
 .fh5co-cover .display-tc h1 {
   margin-bottom: 0px;
-  font-size: 65px;
+  font-size: 50px;
   line-height: 1.5;
   font-family: "Amsterdam", Arial, serif;
 }
@@ -869,10 +870,19 @@ form label {
 #fh5co-header .display-tc h2,
 #fh5co-counter .display-tc h2,
 .fh5co-cover .display-tc h2 {
-  font-size: 20px;
+  font-size: 50px;
   line-height: 1.5;
   margin-top: 20px;
   font-family: Engagement;
+color:#000 !important,
+  /* font-size: 20px; */
+  /* line-height: 1.5; */
+  /* margin-top: 20px; */
+  /* font-family: Engagement; */
+  /* font-family: cursive; */
+  font-weight: bold;
+
+
 }
 @media screen and (max-width: 480px) {
   #fh5co-header .display-tc h2,
@@ -880,6 +890,11 @@ form label {
   .fh5co-cover .display-tc h2 {
     font-size: 16px;
   }
+  #fh5co-header .display-tc,
+#fh5co-counter .display-tc,
+.fh5co-cover .display-tc{
+  padding-top: 130px;
+}
 }
 #fh5co-header .display-tc .btn,
 #fh5co-counter .display-tc .btn,
@@ -921,6 +936,11 @@ form label {
   #fh5co-counter .feature-center {
     margin-bottom: 50px;
   }
+  #fh5co-header .display-tc,
+#fh5co-counter .display-tc,
+.fh5co-cover .display-tc{
+  padding-top: 130px;
+}
 }
 #fh5co-counter .icon {
   width: 70px;
